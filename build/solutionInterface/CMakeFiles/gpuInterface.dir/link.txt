@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpuInterfaced.a CMakeFiles/gpuInterface.dir/src/solutionInterface/gpu.cpp.o CMakeFiles/gpuInterface.dir/src/solutionInterface/modelFwd.cpp.o CMakeFiles/gpuInterface.dir/src/solutionInterface/taskFunctions.cpp.o
+/usr/bin/ranlib libgpuInterfaced.a

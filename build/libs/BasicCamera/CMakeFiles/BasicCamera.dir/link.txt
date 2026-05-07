@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBasicCamerad.a CMakeFiles/BasicCamera.dir/src/BasicCamera/FreeLookCamera.cpp.o CMakeFiles/BasicCamera.dir/src/BasicCamera/OrbitCamera.cpp.o CMakeFiles/BasicCamera.dir/src/BasicCamera/PerspectiveCamera.cpp.o
+/usr/bin/ranlib libBasicCamerad.a

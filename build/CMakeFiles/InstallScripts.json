@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/marcosuga/Documents/IZG/izgProject/build/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/SDL-release-3.4.4/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/MealyMachine/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/TxtUtils/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/ArgumentViewer/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/solutionInterface/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/BasicCamera/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/Catch2-3.3.1/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/libs/Catch2-3.3.1/src/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/framework/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/examples/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/tests/cmake_install.cmake",
+		"/Users/marcosuga/Documents/IZG/izgProject/build/studentSolution/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
