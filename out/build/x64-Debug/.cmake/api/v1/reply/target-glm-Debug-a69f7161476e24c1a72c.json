@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"solutionInterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "glm::@8e4717bf61ce866fd8c1",
+	"name" : "glm",
+	"paths" : 
+	{
+		"build" : "solutionInterface",
+		"source" : "solutionInterface"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

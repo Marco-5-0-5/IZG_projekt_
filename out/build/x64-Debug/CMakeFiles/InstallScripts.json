@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/SDL-release-3.4.4/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/MealyMachine/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/TxtUtils/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/ArgumentViewer/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/solutionInterface/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/BasicCamera/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/Catch2-3.3.1/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/libs/Catch2-3.3.1/src/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/framework/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/examples/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/tests/cmake_install.cmake",
+		"C:/Users/marco/Downloads/izgProject/out/build/x64-Debug/studentSolution/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

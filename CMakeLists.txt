@@ -15,7 +15,7 @@ if(NOT CLEAR_CMAKE_ROOT_DIR)
   set(PROJECT_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 endif()
 
-
+option(SDL_X11_XSCRNSAVER "" OFF)
 option(SDL_SHARED "" OFF)
 option(SDL_STATIC "" ON )
 

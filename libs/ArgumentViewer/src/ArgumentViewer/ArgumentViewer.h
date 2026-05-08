@@ -3,6 +3,7 @@
 #include <ArgumentViewer/Fwd.h>
 #include <ArgumentViewer/argumentviewer_export.h>
 #include <iostream>
+#include <cstdint>
 #include <memory>
 #include <vector>
 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTxtUtilsd.a CMakeFiles/TxtUtils.dir/src/TxtUtils/TxtUtils.cpp.o
-/usr/bin/ranlib libTxtUtilsd.a

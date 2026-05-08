@@ -6,8 +6,10 @@
  */
 
 #include <assert.h>
-#include <framework/window.hpp>
+#include <cstdlib>
 #include <string.h>
+
+#include <framework/window.hpp>
 
 /**
  * @brief Constructor of Window instance

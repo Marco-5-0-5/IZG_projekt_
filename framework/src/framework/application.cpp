@@ -146,7 +146,7 @@ void Application::createMethodIfItDoesNotExist(){
   if(mr.method)return;
   mem = GPUMemory();
   resize();
-  mr.method = mr.methodFactories[mr.selectedMethod](mem,&*mr.methodConstructData[mr.selectedMethod]);
+  mr.method = mr.methodFactories[mr.selectedMethod](mem,mr.methodConstructData[mr.selectedMethod].get());
   updateWindowTitle();
 }
 

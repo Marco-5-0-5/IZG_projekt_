@@ -1,0 +1,551 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-collector::@2e23af3b1f5c79b13ed2",
+					"jsonFile" : "target-SDL3-collector-Debug-21f2f04257b847773b2c.json",
+					"name" : "SDL3-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_Headers::@2e23af3b1f5c79b13ed2",
+					"jsonFile" : "target-SDL3_Headers-Debug-313dd75c5ccf685e0818.json",
+					"name" : "SDL3_Headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test-collector::@2e23af3b1f5c79b13ed2",
+					"jsonFile" : "target-SDL3_test-collector-Debug-3dfdc578798c3dbb66b4.json",
+					"name" : "SDL3_test-collector",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glm::@8e4717bf61ce866fd8c1",
+					"jsonFile" : "target-glm-Debug-a69f7161476e24c1a72c.json",
+					"name" : "glm",
+					"projectIndex" : 5
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"build" : "libs/SDL-release-3.4.4",
+					"jsonFile" : "directory-libs.SDL-release-3.4.4-Debug-d6f8730cb81e529c14a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/SDL-release-3.4.4",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "libs/MealyMachine",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.MealyMachine-Debug-10d8c5e8214993ee6a06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/MealyMachine",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libs/TxtUtils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.TxtUtils-Debug-e1712758efba45a3676a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/TxtUtils",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "libs/ArgumentViewer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.ArgumentViewer-Debug-9d3f6275b062618aa704.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/ArgumentViewer",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "solutionInterface",
+					"jsonFile" : "directory-solutionInterface-Debug-d00230b506740a058428.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "solutionInterface",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "libs/BasicCamera",
+					"jsonFile" : "directory-libs.BasicCamera-Debug-dec6cab3ad636ab79972.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "libs/BasicCamera",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libs/Catch2-3.3.1",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-libs.Catch2-3.3.1-Debug-fbfe8f49237201a66940.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "libs/Catch2-3.3.1"
+				},
+				{
+					"build" : "libs/Catch2-3.3.1/src",
+					"jsonFile" : "directory-libs.Catch2-3.3.1.src-Debug-47d57e771f2f94f8f3aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "libs/Catch2-3.3.1/src",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "framework",
+					"jsonFile" : "directory-framework-Debug-cd887fe098aad0d2c409.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-f38d76e9e12d3c62f9e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "studentSolution",
+					"jsonFile" : "directory-studentSolution-Debug-6971ba6435e437b38694.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "studentSolution",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "izgProject",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "MealyMachine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "TxtUtils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ArgumentViewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gpuInterface",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "BasicCamera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "framework",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "studentSolution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "ArgumentViewer::@085276b60a844a60340f",
+					"jsonFile" : "target-ArgumentViewer-Debug-42ed6db1c5a24d6109be.json",
+					"name" : "ArgumentViewer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "BasicCamera::@f2c147fd90b5d7e9d838",
+					"jsonFile" : "target-BasicCamera-Debug-62fb5f21f9b4506af1e6.json",
+					"name" : "BasicCamera",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Catch2::@81e41eed7466b12f7c78",
+					"jsonFile" : "target-Catch2-Debug-57facd653623723300a3.json",
+					"name" : "Catch2",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Catch2WithMain::@81e41eed7466b12f7c78",
+					"jsonFile" : "target-Catch2WithMain-Debug-e06058c838be528d8bbe.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MealyMachine::@8906a61e4631d037dab9",
+					"jsonFile" : "target-MealyMachine-Debug-e35d9804f0db60084c3c.json",
+					"name" : "MealyMachine",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@2e23af3b1f5c79b13ed2",
+					"jsonFile" : "target-SDL3-static-Debug-b21396e0c18c95064a2c.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@2e23af3b1f5c79b13ed2",
+					"jsonFile" : "target-SDL3_test-Debug-43808dd386db54faf5bf.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TxtUtils::@0a164a81148dbc3d30f6",
+					"jsonFile" : "target-TxtUtils-Debug-07aa731cd303c3846b75.json",
+					"name" : "TxtUtils",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "examples::@714eac15f71a94114fdf",
+					"jsonFile" : "target-examples-Debug-987c90a706f32d823986.json",
+					"name" : "examples",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "framework::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-framework-Debug-5b55dbd5d87b9506e796.json",
+					"name" : "framework",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gpuInterface::@8e4717bf61ce866fd8c1",
+					"jsonFile" : "target-gpuInterface-Debug-01d38fc1c8da45aa920d.json",
+					"name" : "gpuInterface",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "izgProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-izgProject-Debug-dcc7af62c3a465d07f17.json",
+					"name" : "izgProject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "studentSolution::@5e6dd9991708d357bd5e",
+					"jsonFile" : "target-studentSolution-Debug-944d74ee509a517e8c92.json",
+					"name" : "studentSolution",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tests-Debug-cd1c3804e0118a3fafe3.json",
+					"name" : "tests",
+					"projectIndex" : 10
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/marco/Downloads/izgProject/out/build/x64-Debug",
+		"source" : "C:/Users/marco/Downloads/izgProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

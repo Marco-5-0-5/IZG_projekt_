@@ -10,6 +10,7 @@
 #include <MealyMachine/Fwd.h>
 #include <MealyMachine/mealymachine_export.h>
 #include <functional>
+#include <cstdint>
 #include <limits>
 #include <memory>
 #include <tuple>

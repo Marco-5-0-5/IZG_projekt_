@@ -1,0 +1,212 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "studentSolution/CMakeFiles/studentSolution.dir/./src/studentSolution/gpu.cpp.obj"
+		},
+		{
+			"path" : "studentSolution/CMakeFiles/studentSolution.dir/./src/studentSolution/prepareModel.cpp.obj"
+		},
+		{
+			"path" : "studentSolution/CMakeFiles/studentSolution.dir/./src/studentSolution/shaderFunctions.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"studentSolution/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gpuInterface::@8e4717bf61ce866fd8c1"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/marco/Downloads/izgProject/studentSolution/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/marco/Downloads/izgProject/studentSolution/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/marco/Downloads/izgProject/solutionInterface/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/marco/Downloads/izgProject/solutionInterface/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/marco/Downloads/izgProject/solutionInterface/../libs/glm-0.9.9.8"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gpuInterface::@8e4717bf61ce866fd8c1"
+		}
+	],
+	"id" : "studentSolution::@5e6dd9991708d357bd5e",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gpuInterface::@8e4717bf61ce866fd8c1"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gpuInterface::@8e4717bf61ce866fd8c1"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gpuInterface::@8e4717bf61ce866fd8c1"
+		}
+	],
+	"name" : "studentSolution",
+	"paths" : 
+	{
+		"build" : "studentSolution",
+		"source" : "studentSolution"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "studentSolution/src/studentSolution/gpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "studentSolution/src/studentSolution/gpu.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "studentSolution/src/studentSolution/prepareModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "studentSolution/src/studentSolution/prepareModel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "studentSolution/src/studentSolution/shaderFunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "studentSolution/src/studentSolution/shaderFunctions.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

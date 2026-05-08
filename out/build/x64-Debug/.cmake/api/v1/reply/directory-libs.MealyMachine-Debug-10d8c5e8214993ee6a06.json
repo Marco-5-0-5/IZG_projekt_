@@ -1,0 +1,139 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"libs/MealyMachine/CMakeUtils.cmake",
+			"libs/MealyMachine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/MealyMachine/MealyMachined.lib"
+			],
+			"targetId" : "MealyMachine::@8906a61e4631d037dab9",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "include/MealyMachine",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/MealyMachine/MealyMachine/mealymachine_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "include/MealyMachine",
+			"paths" : 
+			[
+				"libs/MealyMachine/src/MealyMachine/Fwd.h",
+				"libs/MealyMachine/src/MealyMachine/MapTransitionChooser.h",
+				"libs/MealyMachine/src/MealyMachine/MealyMachine.h",
+				"libs/MealyMachine/src/MealyMachine/TransitionChooser.h",
+				"libs/MealyMachine/src/MealyMachine/Exception.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/cmake/MealyMachine",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/MealyMachine/MealyMachine/MealyMachineConfig.cmake",
+				"out/build/x64-Debug/libs/MealyMachine/MealyMachine/MealyMachineConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/MealyMachine",
+			"exportName" : "MealyMachineTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "MealyMachine::@8906a61e4631d037dab9",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"libs/MealyMachine/CMakeFiles/Export/8a78f3cfc4e16014fa93791fc7915ae5/MealyMachineTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/MealyMachine",
+		"source" : "libs/MealyMachine"
+	}
+}

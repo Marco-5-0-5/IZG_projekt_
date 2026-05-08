@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"libs/ArgumentViewer/CMakeUtils.cmake",
+			"libs/ArgumentViewer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/ArgumentViewer/ArgumentViewerd.lib"
+			],
+			"targetId" : "ArgumentViewer::@085276b60a844a60340f",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "include/ArgumentViewer",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/ArgumentViewer/ArgumentViewer/argumentviewer_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "include/ArgumentViewer",
+			"paths" : 
+			[
+				"libs/ArgumentViewer/src/ArgumentViewer/ArgumentViewer.h",
+				"libs/ArgumentViewer/src/ArgumentViewer/Fwd.h",
+				"libs/ArgumentViewer/src/ArgumentViewer/Exception.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/cmake/ArgumentViewer",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/ArgumentViewer/ArgumentViewer/ArgumentViewerConfig.cmake",
+				"out/build/x64-Debug/libs/ArgumentViewer/ArgumentViewer/ArgumentViewerConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ArgumentViewer",
+			"exportName" : "ArgumentViewerTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ArgumentViewer::@085276b60a844a60340f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/ArgumentViewer/CMakeFiles/Export/5dddf4ae052ffa1493c994b9af8669f5/ArgumentViewerTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/ArgumentViewer",
+		"source" : "libs/ArgumentViewer"
+	}
+}
